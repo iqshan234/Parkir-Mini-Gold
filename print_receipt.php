@@ -12,7 +12,8 @@ $out_timstamp = $out_qry->num_rows > 0 ? date("M d, Y h:i A",strtotime($out_qry-
 
 ?>
 
-				<p><center><b><large>Parking Ticket</large></b></center></p>
+				<p><center><b><large><img src="mg.jpg" class="img-circle" alt="logo" width="20"/>
+                 <b >Mini Gold Parkir</b></large></b></center></p>
 				<hr>
 				<h4><b>Kode Parkir : <?php echo $ref_no ?></b> </h4>
 							<p>Area Parkir Kendaraan : <b><?php echo $lname ?></b></p>
